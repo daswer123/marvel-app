@@ -6,13 +6,14 @@ import Wait from "../Wait/Wait";
 import FindChar from "../FindChar/FindChar";
 
 const CharPage = () => {
-  const wait = false;
+  const wait = true;
 
   const char = (
     <>
       <section className="char-block">
         <div className="char-block__info">
           <CharInfo type="page" />
+          <h2 className="char-block__title">Comics:</h2>
           <ComicsBlock />
         </div>
 

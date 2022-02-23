@@ -1,0 +1,23 @@
+@import "../../assets//style/variables.scss";
+
+.comics-item {
+  cursor: pointer;
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__title {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__price {
+    color: grey;
+  }
+
+  &:hover {
+    transition: all 0.5s;
+    transform: translateY(-2rem);
+  }
+}

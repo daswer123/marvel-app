@@ -1,0 +1,29 @@
+.button {
+  color: white;
+  background-color: $red;
+  border: 0;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+
+  padding: 1rem 2rem;
+  text-decoration: none;
+
+  clip-path: polygon(50% 0%, 80% 0, 100% 0, 100% 70%, 100% 81%, 88% 100%, 0 100%, 0% 70%, 0 19%, 12% 0);
+
+  &:hover,
+  &:active {
+    transition: all 0.3s;
+    background-color: darken($red, 4);
+  }
+
+  &--grey {
+    background-color: $grey;
+
+    &:hover,
+    &:active {
+      transition: all 0.3s;
+      background-color: darken($grey, 4);
+    }
+  }
+}

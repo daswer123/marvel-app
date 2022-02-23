@@ -1,0 +1,19 @@
+@import "../../assets//style/variables.scss";
+
+.main-header {
+  grid-column: center-start / center-end;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 5rem;
+}
+
+.header__section {
+  color: black;
+  text-decoration: none;
+
+  &--active {
+    color: $red;
+  }
+}

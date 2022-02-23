@@ -1,0 +1,22 @@
+@import "../../assets/style/variables.scss";
+
+.banner {
+  grid-column: center-start / center-end;
+  background-color: $black;
+
+  padding: 2.5rem 4.5rem;
+  min-height: 10rem;
+
+  color: white;
+
+  background-image: url("../../assets/img/avengers.png"), url("../../assets/img/avengers-logo.png");
+  background-position: 5% center, 95% center;
+  background-repeat: no-repeat;
+
+  &__title {
+    max-width: 24rem;
+    margin-left: 20rem;
+  }
+
+  margin-bottom: 5rem;
+}

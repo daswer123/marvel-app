@@ -1,0 +1,26 @@
+@import "../../assets/style/variables.scss";
+
+.randomchar {
+  color: white;
+  flex: 0 1 50%;
+
+  background-color: $black;
+  padding: 3.5rem 4rem;
+  box-shadow: 0 0 2rem rgba(black, 0.3);
+
+  background-image: url("../../assets//img/random-decor.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  &__slogan {
+    margin-bottom: 3.5rem;
+  }
+
+  &__slogan--2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.randomchar .title {
+  max-width: 37rem;
+}

@@ -1,0 +1,28 @@
+.char {
+  padding: 3.5rem 4rem;
+  flex: 0 1 50%;
+  display: flex;
+
+  box-shadow: 0 0 2rem rgba(black, 0.3);
+
+  &__img {
+    margin-right: 3rem;
+
+    width: 180px;
+    height: 180px;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__button-block {
+    margin-top: 1.5rem;
+  }
+
+  &__btn {
+    display: inline-block;
+
+    margin-right: 2rem;
+  }
+}

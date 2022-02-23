@@ -1,0 +1,22 @@
+.chars__list {
+  list-style-type: none;
+  grid-column: center-start / col-end 5;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, min-content);
+  gap: 3rem;
+}
+
+.chars__btn {
+  //   grid-column: center-start / col-end 5;
+  display: block;
+  align-self: center;
+
+  padding: 1rem 5rem;
+  margin-top: 5rem;
+
+  grid-column: 2/3;
+
+  cursor: pointer;
+}

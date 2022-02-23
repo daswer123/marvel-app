@@ -1,0 +1,26 @@
+.char-find {
+  padding: 2.5rem;
+  box-shadow: 0 0 2rem rgba(black, 0.5);
+
+  &__data {
+    margin-top: 2rem;
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  &__input {
+    flex: 0 1 60%;
+    padding: 1rem;
+
+    color: grey;
+
+    border: 0;
+
+    box-shadow: 0 10px 10px rgba(black, 0.2);
+  }
+
+  &__btn {
+    flex: 0 1 30%;
+  }
+}

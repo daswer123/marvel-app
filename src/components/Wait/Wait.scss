@@ -1,0 +1,7 @@
+.wait {
+  grid-column: col-end 5 / center-end;
+  &__title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}

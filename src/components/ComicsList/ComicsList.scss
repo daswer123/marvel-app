@@ -1,0 +1,23 @@
+.comics__list {
+  grid-column: center-start/center-end;
+  list-style-type: none;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(23rem, 1fr));
+  column-gap: 6rem;
+  row-gap: 6rem;
+}
+
+.comics__btn {
+  grid-column: center-start/center-end;
+  width: max-content;
+
+  padding: 1rem 5rem;
+
+  justify-self: center;
+
+  margin-top: 2rem;
+
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+body {
+  font-family: "Roboto Condensed";
+
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+}
+
+.paragraph--page {
+  font-size: 1.8rem;
+}
+
+.main-title {
+  font-size: 2.8rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.sub-title {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.special {
+  color: $red;
+}

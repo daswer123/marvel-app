@@ -1,0 +1,27 @@
+.char--one {
+  grid-column: center-start/center-end;
+  box-shadow: none;
+  padding: 0;
+  & .char {
+    &__img {
+      margin-right: 5rem;
+
+      width: 300px;
+      height: 300px;
+    }
+
+    &__info {
+      max-width: 55rem;
+    }
+
+    &__about {
+      //   display: none;
+      font-size: 1.8rem;
+      margin-top: 2.5rem;
+    }
+
+    &__button-block {
+      display: none;
+    }
+  }
+}

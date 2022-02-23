@@ -1,0 +1,26 @@
+@import "../../assets//style/variables.scss";
+
+.char-item {
+  padding-bottom: 7.5rem;
+  background-color: $black;
+  cursor: pointer;
+
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+  &__img {
+    width: 200px;
+    height: 200px;
+
+    margin: 0;
+  }
+
+  &__name {
+    margin: 1.5rem;
+    color: white;
+  }
+
+  &:hover {
+    transition: all 0.5s;
+    transform: translateY(-2rem);
+    box-shadow: 0 0 3rem rgba($red, 0.7);
+  }
+}
